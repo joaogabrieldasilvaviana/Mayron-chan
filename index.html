@@ -3,22 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Inspirado no Chico Laska</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Red Dead Redemption 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="wrapper">
-        <header>
-            <h1>Bem-vindo ao Site Inspirado no Chico Laska</h1>
-        </header>
-        <main>
-            <div class="banners">
-                <div class="banner" id="banner1"></div>
-                <div class="banner" id="banner2"></div>
+    <header class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Red Dead Redemption 2</h1>
+            <p>Uma jornada épica pelo Velho Oeste</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#graphics">Gráficos</a></li>
+                <li><a href="#story">História</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="content-block">
+            <div class="text">
+                <h2>Sobre o Jogo</h2>
+                <p>Red Dead Redemption 2 é uma obra-prima do mundo dos games, desenvolvido pela Rockstar Games. Vivencie o Velho Oeste americano no final do século XIX, enquanto acompanha a vida de Arthur Morgan, um fora-da-lei com um código moral único.</p>
             </div>
-            <button id="changeBackground">Alterar Fundo</button>
-        </main>
-    </div>
-    <script src="scripts.js"></script>
+            <div class="image">
+                <img src="https://i.imgur.com/TS7w6Kq.gif" alt="Sobre o Jogo">
+            </div>
+        </section>
+
+        <section id="graphics" class="content-block reverse">
+            <div class="text">
+                <h2>Gráficos Incríveis</h2>
+                <p>Com gráficos de tirar o fôlego, Red Dead Redemption 2 transporta você para um mundo aberto imersivo, onde cada detalhe é cuidadosamente criado para proporcionar uma experiência visual inigualável.</p>
+            </div>
+            <div class="image">
+                <img src="https://i.imgur.com/1cSoA7X.gif" alt="Gráficos Incríveis">
+            </div>
+        </section>
+
+        <section id="story" class="content-block">
+            <div class="text">
+                <h2>História Imersiva</h2>
+                <p>O jogo não é apenas visualmente deslumbrante, mas também possui uma narrativa profunda, repleta de personagens complexos e momentos emocionantes que prendem o jogador do início ao fim.</p>
+            </div>
+            <div class="image">
+                <img src="https://i.imgur.com/oRdivOF.gif" alt="História Imersiva">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Página de Fãs de Red Dead Redemption 2. Todos os direitos reservados. Feito por Luiz Mildemberger Neto.</p>
+    </footer>
 </body>
 </html>
